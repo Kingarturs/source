@@ -49,3 +49,25 @@ const Wrapper = () => (
 **`1 | 2 | 3 | 4 | 5 | 6 | 9 | 12 | 24`**
 
 Units of space between stack items (one unit is 4px)
+
+## Inline
+
+```tsx
+import { Inline } from "@guardian/src-layout"
+
+const Wrapper = () => (
+    <Inline>
+        <div css={contents}>Item 1</div>
+        <div css={contents}>Item 2</div>
+        <div css={contents}>Item 3</div>
+    </Inline>
+)
+```
+
+### Props
+
+#### `space`
+
+**`1 | 2 | 3 | 4 | 5 | 6 | 9 | 12 | 24`**
+
+Units of space between inline items (one unit is 4px)
